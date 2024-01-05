@@ -18,23 +18,7 @@ const FetchCom = () => {
   }, []);
   console.log({ data });
 
-  return (
-    <div className="weather-forecast">
-      <h1>Weather Forecast</h1>
-      {data && (
-        <ul className="forecast-list">
-          {data.map((item, index) => (
-            <li key={index} className="forecast-item">
-              <strong>Date:</strong> {item.date}, &nbsp;
-              <strong>Temperature (C):</strong> {item.temperatureC}, &nbsp;
-              <strong>Summary:</strong> {item.summary}, &nbsp;
-              <strong>Temperature (F):</strong> {item.temperatureF}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
+  return <div>{JSON.stringify(data)}</div>;
 };
 
 export default FetchCom;
