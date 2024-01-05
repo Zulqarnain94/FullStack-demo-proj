@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JokerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5876a127edcb374e0b6a45c4d077cfaf106c56ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("JokerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JokerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
